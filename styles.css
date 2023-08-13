@@ -45,3 +45,8 @@ h1{
   width : 2rem;
 
 }
+@media only screen & (width < 200px){
+.wrapper{
+  width : 90%;
+}
+}
