@@ -47,6 +47,7 @@ h1{
 .flex-column{
   display : flex;
   flex-direction : column;
+  justify-content: space-between;
 }
 #logo{
   width : 2rem;
