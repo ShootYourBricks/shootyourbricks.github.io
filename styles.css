@@ -1,8 +1,8 @@
 :root{
-font-size: 20px;
---white: rgb(206, 206, 206);
---blue: rgb(2, 59, 149);
-background-color:  var(--white);
+  font-size: 20px;
+  --white: rgb(206, 206, 206);
+  --blue: rgb(2, 59, 149);
+  background-color:  var(--white);
 }
 
 .wrapper{
@@ -10,10 +10,10 @@ background-color:  var(--white);
   margin: auto;
 }
 header{
-background-color : var(--blue);
-height: 4rem;
-padding: 1rem;
-display: flex;
+  background-color : var(--blue);
+  height: 4rem;
+  padding: 1rem;
+  display: flex;
 }
 #navlinks{
   font-size: 24;
@@ -40,6 +40,13 @@ h1{
   margin: auto;
   align-self: center;
   text-align: center;
+}
+.flex{
+  display : flex;
+}
+.flex-column{
+  display : flex;
+  flex-direction : column;
 }
 #logo{
   width : 2rem;
