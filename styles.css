@@ -52,8 +52,16 @@ h1{
   width : 2rem;
 
 }
+#main-para{
+ max-width : 60%; 
+}
+
 @media (max-width : 200px){
 .wrapper{
   width : 90%;
+}
+  
+#main-para{
+ max-width : unset; 
 }
 }
