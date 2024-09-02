@@ -34,7 +34,12 @@ height: 4rem;
 color : var(--white)
 }
 h1{
-  font-size: 32px;
+  font-size: 2rem;
+}
+.title-p{
+  font-size: 1.5rem;
+  margin: 1rem;
+  margin-left: 0;
 }
 .center{
   margin: auto;
