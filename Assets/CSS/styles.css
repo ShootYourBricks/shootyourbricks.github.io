@@ -1,7 +1,7 @@
 :root{
   font-size: 20px;
   --primary: rgb(180, 184, 190);
-  --secondary: rgb(130, 132, 137);
+  --secondary: rgb(139, 145, 154);
   --terciary: rgb(17, 21, 42);
   background-color:  var(--primary);
   color: var(--terciary)
