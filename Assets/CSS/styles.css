@@ -63,11 +63,11 @@ h1{
 }
 
 @media (max-width : 200px){
-.wrapper{
-  width : 90%;
-}
-  
-#main-para{
- max-width : unset; 
-}
+  .wrapper{
+    width : 90%;
+  }
+    
+  #main-para{
+  max-width : unset; 
+  }
 }
