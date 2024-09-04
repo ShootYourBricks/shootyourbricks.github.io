@@ -1,8 +1,10 @@
 :root{
   font-size: 20px;
-  --white: rgb(206, 206, 206);
-  --blue: rgb(2, 59, 149);
-  background-color:  var(--white);
+  --primary: rgb(180, 184, 190);
+  --secondary: rgb(130, 132, 137);
+  --terciary: rgb(17, 21, 42);
+  background-color:  var(--primary);
+  color: var(--terciary)
 }
 
 .wrapper{
@@ -10,28 +12,33 @@
   margin: auto;
 }
 header{
-  background-color : var(--blue);
+  background-color : var(--secondary);
   height: 4rem;
   padding: 1rem;
   display: flex;
 }
-#navlinks{
+header img{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.nav-links{
   font-size: 24;
   text-align: center;
   align-self: center;
   padding: 1rem;
-  color: var(--white);
+  color: var(--terciary);
+  display: flex;
 }
-#navlinks a{
+.navlinks a{
   padding-right: 1rem;
 }
 main{
-  height: calc(100vh - 8rem);
+  min-height: calc(100vh - 8rem);
 }
 footer{
-  background-color : var(--blue);
+  background-color : var(--secondary);
 height: 4rem;
-color : var(--white)
+color : var(--terciary)
 }
 h1{
   font-size: 2rem;
@@ -57,9 +64,6 @@ h1{
 #logo{
   width : 2rem;
 
-}
-#main-para{
- max-width : 60%; 
 }
 
 @media (max-width : 200px){
