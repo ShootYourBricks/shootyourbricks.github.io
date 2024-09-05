@@ -14,13 +14,13 @@
 header{
   background-color : var(--secondary);
   height: 4rem;
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
+  justify-items: flex-end;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
-header img{
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
+
 .nav-links{
   font-size: 24;
   text-align: center;
@@ -29,9 +29,10 @@ header img{
   color: var(--terciary);
   display: flex;
 }
-.navlinks a{
-  padding-right: 1rem;
+.nav-links a{
+  padding: 1rem;
 }
+
 main{
   min-height: calc(100vh - 8rem);
 }
