@@ -16,7 +16,6 @@ header{
   height: 4rem;
   padding: 2rem;
   display: flex;
-  justify-items: flex-end;
   flex-wrap: nowrap;
   justify-content: space-between;
 }
@@ -38,8 +37,13 @@ main{
 }
 footer{
   background-color : var(--secondary);
-height: 4rem;
-color : var(--terciary)
+  max-height: 4rem;
+  color : var(--terciary);
+  padding: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 h1{
   font-size: 2rem;
@@ -64,7 +68,7 @@ h1{
 }
 #logo{
   width : 2rem;
-
+  height: 2rem;
 }
 
 @media (max-width : 200px){
