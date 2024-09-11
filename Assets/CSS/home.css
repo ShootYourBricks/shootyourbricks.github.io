@@ -12,11 +12,25 @@
 .main-div{
     /* border: 0.4rem solid var(--terciary); */
     background-color: var(--secondary);
-    box-shadow: 10px 10px 10px;
-    border-radius: 15px;
+    box-shadow: 0.8rem 0.8rem 0.8rem;
+    border-radius: 1rem;
     margin-top: 2rem;
     padding: 1rem
 }
 .main-div-bottom{
     margin-bottom: 2rem;
+}
+.interest-div{
+    margin: 1rem;
+}
+
+/* Responsive design */
+@media (max-width : 500px){
+    :root{
+        font-size: 18px;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+
 }

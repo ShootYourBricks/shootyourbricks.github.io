@@ -6,11 +6,6 @@
   background-color:  var(--primary);
   color: var(--terciary)
 }
-
-.wrapper{
-  width : 80%;
-  margin: auto;
-}
 header{
   background-color : var(--secondary);
   height: 4rem;
@@ -19,21 +14,12 @@ header{
   flex-wrap: nowrap;
   justify-content: space-between;
 }
-
-.nav-links{
-  font-size: 24;
-  text-align: center;
-  align-self: center;
-  padding: 1rem;
-  color: var(--terciary);
-  display: flex;
-}
-.nav-links a{
-  padding: 1rem;
-}
-
 main{
   min-height: calc(100vh - 8rem);
+}
+.wrapper{
+  width : 80%;
+  margin: auto;
 }
 footer{
   background-color : var(--secondary);
@@ -44,6 +30,21 @@ footer{
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+}
+#logo{
+  width : 2rem;
+  height: 2rem;
+}
+.nav-links{
+  font-size: 24;
+  text-align: center;
+  align-self: center;
+  margin: 1rem;
+  color: var(--terciary);
+  display: flex;
+}
+.nav-links a, .nav-links button{
+  margin: 1rem;
 }
 h1{
   font-size: 2rem;
@@ -60,23 +61,58 @@ h1{
 }
 .flex{
   display : flex;
+  flex-wrap: wrap;
 }
 .flex-column{
   display : flex;
   flex-direction : column;
   justify-content: space-between;
 }
-#logo{
-  width : 2rem;
-  height: 2rem;
+
+/* Hidden */
+.mobile-header{
+  display: none;
+}
+#mobile-menu{
+  display: none;
 }
 
-@media (max-width : 200px){
+/* Responsive */
+@media (max-width : 1100px){
+  .nav-links{
+    margin: 0;
+    justify-content: space-between;
+  }
+  .nav-links a, .nav-links button{
+    margin: 0.8rem;
+  }
+}
+@media (max-width : 850px){
+  header{
+    padding: 0.1rem;
+    justify-content: center;
+  }
+  .default-header{
+    display: none;
+  }
+  .mobile-header{
+    display: flex;
+  }
   .wrapper{
     width : 90%;
   }
-    
+  #logo{
+    width : 2rem;
+    height: 2rem;
+    align-self: center;
+  }
   #main-para{
   max-width : unset; 
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+  footer #logo{
+    display: none;
   }
 }
