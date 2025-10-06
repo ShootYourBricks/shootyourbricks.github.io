@@ -1,2 +1,2 @@
 # shootyourbricks.github.io
-This is a personal website
+This website has moved, so this is simply a redirect to shootyourbricks.netlify.app
